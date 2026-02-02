@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASAYA AI Services | Local AI Setup, Workflows & Consultation</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a0f;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+        .container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
+        .header { text-align: center; margin-bottom: 60px; }
+        .logo {
+            font-size: 48px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #fff 0%, #6366f1 50%, #a855f7 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        .tagline { color: #888; font-size: 18px; margin-bottom: 30px; }
+        .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin: 40px 0; }
+        .service {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 20px;
+            padding: 35px;
+            transition: transform 0.2s, border-color 0.2s;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        .service:hover { transform: translateY(-5px); border-color: rgba(99, 102, 241, 0.5); }
+        .service-badge {
+            display: inline-block;
+            padding: 6px 12px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+        .service-badge.green { background: rgba(34, 197, 94, 0.2); color: #22c55e; }
+        .service-badge.orange { background: rgba(245, 158, 11, 0.2); color: #f59e0b; }
+        .service-badge.pink { background: rgba(236, 72, 153, 0.2); color: #ec4899; }
+        .service h2 { font-size: 24px; margin-bottom: 10px; }
+        .service p { color: #888; font-size: 14px; margin-bottom: 20px; }
+        .service-price { font-size: 28px; font-weight: 700; color: #fff; }
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #6366f1, #a855f7);
+            color: white;
+            padding: 16px 40px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 700;
+            text-decoration: none;
+            margin-top: 40px;
+        }
+        .footer { text-align: center; padding: 60px 0 30px; color: #666; font-size: 14px; }
+        .footer a { color: #a855f7; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">ASAYA</div>
+            <p class="tagline">AI Services for Creators, Developers & Businesses</p>
+            <p style="color: #666; font-size: 14px;">Local AI setup Â· Professional workflows Â· Strategy consulting</p>
+        </div>
+
+        <div class="services">
+            <a href="https://asayamedia.github.io/local-ai-service/" class="service">
+                <span class="service-badge green">âš¡ Most Popular</span>
+                <h2>Local AI Setup</h2>
+                <p>Full installation of ComfyUI, Ollama & Open WebUI on your machine. Remote 2-hour session. 30-day support.</p>
+                <div class="service-price">$150</div>
+            </a>
+
+            <a href="https://asayamedia.github.io/flux-workflows-pack/" class="service">
+                <span class="service-badge orange">ðŸ“¦ Digital Product</span>
+                <h2>Flux Pro Workflows</h2>
+                <p>5 production-ready ComfyUI workflows for Flux.1. Portrait, landscape, product, style transfer & inpainting.</p>
+                <div class="service-price">$25</div>
+            </a>
+
+            <a href="https://asayamedia.github.io/ai-consult-1hr/" class="service">
+                <span class="service-badge pink">ðŸ§  Advisory</span>
+                <h2>AI Strategy Session</h2>
+                <p>1-hour consultation. Get unstuck on AI projects, tool selection, workflows, or integration planning.</p>
+                <div class="service-price">$50/hr</div>
+            </a>
+        </div>
+
+        <div style="text-align: center;">
+            <p style="color: #888; margin-bottom: 20px;">Questions? Custom project?</p>
+            <a href="mailto:admin@asaya.media" class="cta-button">Get in Touch</a>
+        </div>
+
+        <div class="footer">
+            <p><strong>ASAYA Media & Design LLC</strong></p>
+            <p style="margin-top: 10px;">Virginia, USA Â· <a href="mailto:admin@asaya.media">admin@asaya.media</a></p>
+        </div>
+    </div>
+</body>
+</html>
